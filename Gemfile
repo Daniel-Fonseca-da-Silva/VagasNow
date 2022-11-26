@@ -29,12 +29,33 @@ gem "bootstrap"
 
 gem "sassc-rails"
 
+gem "figaro"
+
+gem "simple_form"
+
+gem "devise"
+
+gem "haml"
+
+#gem "kaminari"
+
+#gem "ransack"
+
+#gem "select2-rails"
+
+
+
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem "pry"
+  gem "pry-rails"
+  gem "awesome_print"
+  gem "rspec-rails"
 end
 
 group :development do
   gem "web-console"
+  gem "mailcatcher"
 
 end
 
