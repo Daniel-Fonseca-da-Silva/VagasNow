@@ -51,6 +51,7 @@ group :development, :test do
   gem "pry-rails"
   gem "awesome_print"
   gem "rspec-rails"
+  gem "html2haml"
 end
 
 group :development do
